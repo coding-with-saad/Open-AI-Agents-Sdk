@@ -1,0 +1,19 @@
+[project]
+name = "saad"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "saadkhawar15", email = "saadkhawar169@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents[litellm]>=0.0.12",
+]
+
+[project.scripts]
+saad = "saad:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
