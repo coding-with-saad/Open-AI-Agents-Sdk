@@ -55,5 +55,5 @@ triage_agent = Agent(
     model = gemini_model,
     handoffs=[agenta , agentb]
 )
-result = Runner.run_sync(triage_agent,"what is weather of Islamabad")
+result = Runner.run_sync(triage_agent,"2+5")
 print(result.final_output)
